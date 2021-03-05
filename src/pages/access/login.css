@@ -1,0 +1,24 @@
+.container {
+    height:100vh;
+    min-height:100vh;
+    width:100vw;
+    min-width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.formContainer {
+    float:left;
+    overflow:hidden;
+}
+
+.logo {
+    font-family: 'Open Sans Light', serif;
+    font-size: 50px;
+}
+
+.form {
+    display:flex;
+    flex-direction:column;
+}
