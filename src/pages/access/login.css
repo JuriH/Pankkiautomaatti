@@ -6,16 +6,28 @@
     display:flex;
     justify-content:center;
     align-items:center;
+
+    background-color: #03CEA4;
 }
 
-.formContainer {
-    float:left;
-    overflow:hidden;
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 5%;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
     font-family: 'Open Sans Light', serif;
-    font-size: 50px;
+    font-size: 100px;
+}
+
+.verDivider {
+    border-left: 1px solid #433A3F;
+    height: 100%;
 }
 
 .form {
